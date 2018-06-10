@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Lección 01 - Bootstrap</title>
+
+	<!-- Importacion del jQuery -->
+	<script src="js/lib/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+
+	<style>
+		
+		.textoVerde{
+			color: green;
+			font-weight: bold;
+		}
+
+	</style>
+	<script>
+		$(function () {
+			 $('li:first-child').addClass('textoVerde');
+		}
+			);
+	
+</script>
+
+</head>
+<body>
+<div class="container">
+	<h1>Lección </h1>
+<hr>
+<ul>
+	<li> <span class="label label-primary">Hola 1</span></li>
+	<li>Hola 2</li>
+	<li>Hola 3</li>
+</ul>
+
+
+<ul>
+	<li>Negrita</li>
+	<li>Negrita</li>
+	<li>Negrita</li>
+</ul>
+
+
+
+
+</div>
+</body>
+</html>
